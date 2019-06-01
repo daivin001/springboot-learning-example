@@ -18,4 +18,10 @@ public class HelloController {
     public String sayHello() {
         return "Hello，Spring Boot！";
     }
+
+    @RequestMapping(value = "/hello2",method = RequestMethod.GET)
+    @ResponseBody
+    public String sayHello2() {
+        return "Hello，Spring Boot！";
+    }
 }
