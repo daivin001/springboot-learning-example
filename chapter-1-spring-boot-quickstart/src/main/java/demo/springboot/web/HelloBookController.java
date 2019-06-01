@@ -14,6 +14,7 @@ public class HelloBookController {
 
     @RequestMapping(value = "/book/hello",method = RequestMethod.GET)
     public String sayHello() {
-        return "Hello，更改B1-0502";
+        System.out.println("测试");
+        return "Hello，更改A1-0501";
     }
 }
